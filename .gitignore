@@ -12,3 +12,4 @@ build/
 playwright_learn.py/test-results/
 playwright-report/
 test-results/
+codewars.py
