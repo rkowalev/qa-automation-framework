@@ -1,8 +1,8 @@
 import pytest
 from playwright.sync_api import Page
 from pages.todo_page import TodoPage
-from pages.login.login_page import LoginPage
-from pages.login.secure_area_page import SecureAreaPage
+from pages.login_page import LoginPage
+from pages.secure_area_page import SecureAreaPage
 
 @pytest.fixture
 def todo_page(page: Page) -> TodoPage:

@@ -9,7 +9,7 @@ allure-report/
 *.egg-info/
 dist/
 build/
-playwright_learn.py/test-results/
+playwright_learn.py/
 playwright-report/
 test-results/
-codewars.py
+codewars.py/
