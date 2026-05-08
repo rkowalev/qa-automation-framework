@@ -82,10 +82,6 @@ allure serve allure-results
 
 ### Docker
 
-```bash
-# Build image and run all tests
-docker compose up tests
-
 # Or build and run manually
 docker build -t qa-tests .
 docker run --rm qa-tests pytest -m api
